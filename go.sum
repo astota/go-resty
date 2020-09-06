@@ -1,7 +1,5 @@
-github.com/astota/go-logger v0.3.1 h1:DBUunTq5dz59ijrI8nyGcjOLQoQKVXsKd2DBfOGWusc=
-github.com/astota/go-logger v0.3.1/go.mod h1:YyCv76DT0im9O/LTGsDJKDUXqXrZu7Ck/n5KHQZ3s2s=
-github.com/astota/go-logging v0.5.0 h1:syDclE7bBXm54Pzyw6ZMKkguZqjs6uXrZoRJ5NQS9kM=
-github.com/astota/go-logging v0.5.0/go.mod h1:itOvVR4CHqUsKu+Rklky6wz5MegoydO37DYG8fcvkN0=
+github.com/astota/go-logging v0.0.0-20200905201635-5340601bc951 h1:BQNOtOvv5QwJn3yFQF4kurjLiOHv95udxiCB/ydT3OA=
+github.com/astota/go-logging v0.0.0-20200905201635-5340601bc951/go.mod h1:73HPZ+sSszKvKPFrW+bEH3G+6jVZgV7IWkQq7tLjYDY=
 github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd h1:qMd81Ts1T2OTKmB4acZcyKaMtRnY5Y44NuXGX2GFJ1w=
 github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd/go.mod h1:sE/e/2PUdi/liOCUjSTXgM1o87ZssimdTWN964YiIeI=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

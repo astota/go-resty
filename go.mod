@@ -3,8 +3,7 @@ module github.com/astota/go-resty
 go 1.13
 
 require (
-	github.com/astota/go-logger v0.3.1
-	github.com/astota/go-logging v0.5.0
+	github.com/astota/go-logging v0.0.0-20200905201635-5340601bc951
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd
 	github.com/foodiefm/opentracing v0.3.0
 	github.com/gin-gonic/gin v1.4.0
