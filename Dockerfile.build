@@ -1,0 +1,13 @@
+FROM golang:1.13
+WORKDIR /go/src/github.com/astota/go-rest
+COPY bitbucket.id_rsa /root/bitbucket.id_rsa
+RUN mkdir -p /root/.ssh && \
+    chmod 0600 /root/bitbucket.id_rsa && \
+    echo "Host bitbucket.org\nHostname bitbucket.org\nUser git\nIdentityFile /root/bitbucket.id_rsa" >> ~/.ssh/config && \
+    echo "[url \"git@bitbucket.org:\"]\n\tinsteadOf = https://bitbucket.org/" > /etc/gitconfig && \
+    ssh-keyscan bitbucket.org > /root/.ssh/known_hosts
+COPY . .
+
+ENV GOPRIVATE=github.com/astota
+
+RUN go mod download
